@@ -1,0 +1,61 @@
+.navSearch {
+  background: #FFFFFF;
+  padding: 0.5rem;
+}
+.navSearchCenter {
+    padding: 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "S S S S S S S S S S S S";
+}
+.navLogo {
+  grid-area: L;
+  display: none;
+}
+.navSearch {
+  grid-area: S;
+}
+
+.navLogo img {
+  width: 15rem;
+  height: 2.8rem;
+}
+
+.navSearch {
+  flex-basis: 100%;
+  padding: 0.1rem;
+  display: flex;
+  flex-flow: row;
+  border: 1px solid #E2E2E2;
+}
+.navSearch input {
+  width: 85%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+.navSearch button {
+  width: 15%;
+  padding: 0.4rem;
+  border: none;
+  font-size: 1.3rem;
+  background: #ffffff;
+}
+.navSearch svg{
+    cursor: pointer;
+}
+
+@media (min-width: 999px) {
+  .navSearchCenter {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "L L L L S S S S S S S S";
+  }
+  .navLogo {
+    grid-area: L;
+    display: block;
+  }
+  .navSearch {
+    grid-area: S;
+  }
+}

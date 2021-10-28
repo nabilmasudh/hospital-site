@@ -1,0 +1,53 @@
+.laboratory-section{
+    height: 90vh;
+    margin: 1rem 0;
+}
+.laboratory-center::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/img/Laboratory.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.laboratory-center {
+  position: relative;
+}
+.laboratory {
+  height: 90vh;
+  display: grid;
+  align-items: center;
+  padding: 5rem;
+}
+.laboratory-items{
+    display: flex;
+    flex-flow: column;
+}
+.laboratory-items h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.laboratory-items span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.laboratory-items small{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.laboratory-item{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.laboratory-item p{
+    font-weight: 300;
+}
+.laboratory-item svg{
+    color: #4bcffa;
+    margin-right: 0.5rem;
+}

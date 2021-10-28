@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600&display=swap');
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  background: #eaeef3;
+}
+
+#container{
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 999px) {
+  #container{
+    width: 90%;
+  }
+  
+  /* .nav-links{
+    background: #4bcffa;
+  } */
+}

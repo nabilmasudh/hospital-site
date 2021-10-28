@@ -1,0 +1,94 @@
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* ====================================== 
+Main modal start
+ ====================================== */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  transform: scale(0);
+  visibility: hidden;
+  z-index: -1;
+  
+} 
+/* OPEN/CLOSE MODAL */
+
+
+.show-modal {
+  visibility: visible;
+  z-index: 10;
+  transform: scale(1);
+}
+.modal-container {
+  background: #FFF;
+  border-radius: 0.3rem;
+  width: 95vw;
+  height: 95vh;
+  max-width: 999px;
+  display: grid;
+  position: relative;
+  padding: 1rem 2rem;
+}
+.close-modal-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #333131;
+  cursor: pointer;
+}
+@media (min-width: 999px) {
+  .modal-container{
+    display: none;
+  }
+} 
+
+/* ====================================== 
+Main modal end
+ ====================================== */
+
+
+.modal-links-center{
+  display: flex;
+  flex-flow: column;
+}
+.modal-links{
+  border-top: 1px solid #E2E2E2;
+  margin: 0.5rem 0;
+}
+.modal-links a{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4bcffa;
+}
+.modal-sublinks{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.7rem;
+}
+
+.modal-sublinks a{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #333131;
+}
+
+.modal-sublinks svg{
+  color: #4bcffa;
+} 

@@ -1,0 +1,40 @@
+.home-section{
+    margin: 1rem 0;
+}
+.home-mini-cart-center{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.home-mini-cart{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+.home-mini-cart svg{
+    font-size: 2rem;
+    margin-right: 0.2rem;
+}
+.home-mini-cart:nth-child(1) {
+  background: #DF3030;
+}
+.home-mini-cart:nth-child(2) {
+  background: #0FBCF9;
+}
+.home-mini-cart:nth-child(3) {
+  background: #03A45E;
+}
+.home-mini-cart:nth-child(4) {
+  background: #4D9D31;
+}
+
+@media (min-width: 999px) {
+    .home-mini-cart-center{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+}
