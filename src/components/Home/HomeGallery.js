@@ -3,7 +3,7 @@ import { GalleryPhoto } from "../../data";
 import "./HomeGallery.css";
 const HomeGallery = () => {
   return (
-    <section className="gallery-section">
+    <section className="margin-section">
       <div className="Home-gallery" id="container">
         <h2>Gallery</h2>
         <div className="gallery-center">

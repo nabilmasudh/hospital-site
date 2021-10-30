@@ -1,0 +1,5 @@
+.doctor-form-inner{
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-row-gap: 2rem;
+}

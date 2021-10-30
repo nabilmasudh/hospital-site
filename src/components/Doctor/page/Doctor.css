@@ -1,0 +1,20 @@
+
+.find-doctor-center {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.doctor-form {
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+
+@media (min-width: 800px) {
+  .find-doctor-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

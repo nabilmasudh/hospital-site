@@ -23,7 +23,7 @@
   color: #43D5CB;
 }
 
-@media (min-width: 999px) {
+@media (min-width: 800px) {
   .footer-center {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

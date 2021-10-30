@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 800px) {
   .section {
     width: 95vw;
   }
@@ -73,7 +73,7 @@ Stripe Styles
 }
 
 /* nav media query */
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 800px) {
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr auto;

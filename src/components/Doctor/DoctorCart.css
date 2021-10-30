@@ -1,0 +1,40 @@
+.doctor-cart-inner {
+  display: flex;
+  flex-flow: column;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.doctor-cart-inner img{
+  width: 10rem;
+}
+.doctor-author {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.doctor-items{
+  flex-basis: 50%;
+}
+.doctor-author span{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.doctor-author p{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.doctor-button{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 1170px) {
+  .doctor-cart-inner{
+    display: flex;
+    flex-flow: row;
+  }
+}

@@ -1,7 +1,3 @@
-
-.homepatient-section{
-    margin: 1% 0;
-}
 .homePatient-center{
     display: grid;
     grid-template-columns: repeat(1fr, 1fr);
@@ -11,8 +7,7 @@
 .care-amenities{
     display: flex;
     flex-flow: column;
-    padding: 5rem;
-    margin: 0 auto;
+    padding: 3rem;
 }
 .care-amenities p{
     font-size: 1.3rem;
@@ -31,15 +26,20 @@
     margin-right: 0.5rem;
     color: #0FBCF9;
 }
-.homePatient-photos{
-    margin: 0 auto;
+.homePatient-photos img{
+    width: 90%;
+    object-fit: cover;
 }
 
 
-@media (min-width: 999px) {
+@media (min-width: 800px) {
     .homePatient-center{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .care-amenities{
+        padding: 5rem;
+        margin: 0 auto;
     }
     
 }

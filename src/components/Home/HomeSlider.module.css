@@ -49,7 +49,7 @@
   right: 0;
 }
 
-@media (min-width: 999px) {
+@media (min-width: 800px) {
   .prev,
   .next {
       width: 2rem;

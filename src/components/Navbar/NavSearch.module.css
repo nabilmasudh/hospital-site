@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-@media (min-width: 999px) {
+@media (min-width: 800px) {
   .navSearchCenter {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

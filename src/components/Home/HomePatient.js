@@ -5,7 +5,7 @@ import image from "../../assets/img/Finest-Patient.jpg";
 
 const HomePatient = () => {
   return (
-    <section className="homepatient-section">
+    <section className="margin-section">
       <div className="homePatient-center" id="container">
         <div className="care-amenities">
           <p>Finest Patient</p>

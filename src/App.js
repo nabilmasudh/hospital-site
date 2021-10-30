@@ -1,23 +1,28 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import Submenu from "./components/Navbar/Submenu";
-import NavLinks from './components/Navbar/NavLinks'
-import Modal from "./components/Navbar/Modal";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Slider from "./components/Slider/Slider";
-import NavSearch from './components/NavSearch/NavSearch'
-import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
-
+import Doctor from "./components/Doctor/page/Doctor";
+import Nav from "./components/Navbar/Page/Nav";
+import Home from "./components/Home/Page/Home";
+import Appointment from "./components/Appointment/Page/Appointment";
 
 function App() {
   return (
     <Router>
-      <NavSearch />
-      <NavLinks />
-      <Modal />
-      <Submenu />
-      <Slider />
-      <Home/>
-      <Footer/>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Slider />
+          <Home />
+        </Route>
+        <Route exact path="/doctor">
+          <Doctor />
+        </Route>
+        <Route exact path='/appointment'>
+          <Appointment/>
+        </Route>
+      </Switch>
+      <Footer />
     </Router>
   );
 }

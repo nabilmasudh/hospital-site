@@ -107,7 +107,7 @@ export const sublinks = [
   {
     page: "Doctor",
     links: [
-      { label: "Department Wise", icon: <FaBriefcase />, url: "/" },
+      { label: "Department Wise", icon: <FaBriefcase />, url: "/doctor" },
       { label: "Branch Wise", icon: <FaBriefcase />, url: "/" },
       { label: "Doctor Name Wise", icon: <FaBriefcase />, url: "/" },
     ],
@@ -295,7 +295,6 @@ export const doctors = [
   },
 ];
 
-
 export const careAmenities = [
   {
     icon: <BsFillArrowRightCircleFill />,
@@ -326,7 +325,6 @@ export const careAmenities = [
     text: "Admission Counseling",
   },
 ];
-
 
 export const GalleryPhoto = [
   {
@@ -376,7 +374,6 @@ export const laboratoryItems = [
   },
 ];
 
-
 export const infoData = [
   {
     icon: "../info/h1-custom-icon-4.png",
@@ -407,5 +404,50 @@ export const infoData = [
     icon: "../info/h1-custom-icon-3.png",
     title: "Dental Center",
     text: "Ibn Sina Specialized Dental Centre (Dhanmondi) is a Centre of excellence where advanced services are rendered by a group of experienced renowned professors and consultants. Here we serve the patient's world-class treatment in different subspecialty like oral and maxillofacial surgery, Conservates & Cosmetic Dentistry & general dentistry by both male and female dental surgeons through modern equipment’s and advanced materials with reasonable price.",
+  },
+];
+
+export const doctorDate = [
+  {
+    id: 1,
+    image: "../doctor/doctor1.png",
+    name: "Associate Professor Dr. S. M. Anwar Sadat",
+    specialty: "Consultant, Dental & Maxillofacial Surgery",
+    degree:
+      "BDS, MCPS, FCPS, MS (Oral & Maxillofacial Surgery), FDSRCPS Glasgow",
+    appointment: "Get Appointment",
+    suggestion: "Suggestions",
+    viewDetails: "View Details",
+  },
+  {
+    id: 2,
+    image: "../doctor/doctor2.png",
+    name: "Dr. Subrata Kumar Barai",
+    specialty: "Oral & Dental Surgeon",
+    degree:
+      "BDS, Advanced training in Dental Surgery (India), Dental Implant (India)",
+    appointment: "Get Appointment",
+    suggestion: "Suggestions",
+    viewDetails: "View Details",
+  },
+  {
+    id: 3,
+    image: "../doctor/doctor3.png",
+    name: "Dr. Nargis Fatema",
+    specialty: "Senior Consultant, Obstetrics & Gynecology",
+    degree: " MBBS, FCPS, MS (ObsGyn)",
+    appointment: "Get Appointment",
+    suggestion: "Suggestions",
+    viewDetails: "View Details",
+  },
+  {
+    id: 4,
+    image: "../doctor/doctor4.png",
+    name: "Dr. Farzana Rashid",
+    specialty: " Associate Consultant- OB-GYN & IVF",
+    degree: "FCPS ( OBS-GYN)",
+    appointment: "Get Appointment",
+    suggestion: "Suggestions",
+    viewDetails: "View Details",
   },
 ];

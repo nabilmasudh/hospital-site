@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Submenu.css";
 import { useGlobalContext } from "../../context";
+import { Link } from "react-router-dom";
 const Submenu = () => {
   const {
     isSubmenuOpen,
@@ -32,10 +33,10 @@ const Submenu = () => {
         {links.map((link, index) => {
           const { label, icon, url } = link;
           return (
-            <a key={index} href={url}>
+            <Link key={index} to={url}>
               {icon}
               {label}
-            </a>
+            </Link>
           );
         })}
       </div>
